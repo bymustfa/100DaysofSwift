@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>import UIKit
+
+var str = "Merhaba" // Merhaba
+var pop1 = 12.34 // 12.34
+var pop2 = 12_34 // 1234
+
+
+var multiLine = """
+    Deneme çoklu satır
+       burası alt satır
+    """
+// tek satır yazdırır:
+var multiLine2 = """
+    burası \
+    deneme yazısı \
+    bu yazı
+    """
+
+var bool = true
+
+
+
+var score = 92
+var scoreText = "You score= \(score)"
+// You score= 92 
+
+
+let text = "merhaba"
+// not change 
+
+
+var isActive: Bool = true
+let userName: String = "Mustafa"
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 460}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
