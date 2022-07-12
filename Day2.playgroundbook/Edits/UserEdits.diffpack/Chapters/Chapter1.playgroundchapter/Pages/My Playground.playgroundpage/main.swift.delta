@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let users = ["mustafa", "efsane", "hasan", "hüseyin", ]
+    // just only strings array
+let colors = Set(["red", "green", "blue", "red"])
+    // No item can appear twice in a set; all items must be unique
+    // ["red", "green", "blue"] 
+
+
+let user = (name:"Mustafa", surname:"Öztürk")
+    // Tubles like json
+    // user.0  
+    // Mustafa
+// user.surname 
+// Öztürk
+
+let cities = [
+    "Mustafa Öztürk" : "İstanbul",
+    "Haluk Bozkurt" : "Mersin",
+    
+]
+
+// Dictionaries like jspn array objects
+// cities["Mustafa Öztürk"] = Optional("İstanbul")
+
+
+let cityNumbers = [
+    37 : "Kastamonu",
+    33 : "Mersin"
+]
+
+// cityNumbers[37] = Optional("Kastamonu")
+
+var teams = [String : String]()
+// empty colestions
+teams["Hasan"] = "Red"
+teams["Hüseyin"] = "Blue"
+
+
+let result1 = "success"
+let result2 = "failed"
+
+enum Result{
+    case success
+    case failed
+}
+
+// Result.failed
+
+enum Activity {
+    case bored
+    case running(destination: String)
+    case talking(topic: String)
+    case singing(volume: Int)
+}
+
+let running = Activity.running(destination: "Demo") 
+
+
+enum Planet: Int {
+    case mercury
+    case venus
+    case earth
+    case mars
+}
+
+//  Planet(rawValue: 2) = earth
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1180}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
