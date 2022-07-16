@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>
+let hi = {
+    print("Hello")
+}
+
+// hi()= Hello
+
+
+let sayWelcome = { (name:String) in
+    print("Welcome, \(name)")
+}
+
+// sayWelcome("Mustafa") = Welcome, Mustafa
+
+
+let welocmeCity = { (name:String) -&gt; String
+    in
+    return "Welcome to İstanbul, " + name    
+}
+
+// print( welocmeCity("Mustafa")) = Welcome to İstanbul, Mustafa
+
+
+
+// run callback func
+func travel(action: () -&gt; Void) {
+    print("I'm getting ready to go.")
+    action()
+    print("I arrived!")
+}
+
+// travel(action: hi)
+/*
+ I'm getting ready to go.
+ Hello
+ I arrived!
+ */
+
+
+func run(action: () -&gt; Void) {
+    print("I'm getting ready to go.")
+    action()
+    print("I arrived!")
+}
+
+// if not use parameter delete parentheses
+travel {
+    print("I'm driving in my car")
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 741}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
