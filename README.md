@@ -1,6 +1,7 @@
 # 100DaysofSwift
 100 Days of Swift
 
+6. [x] Day 5 ( closures part one )
 5. [x] Day 5 ( functions, parameters, and errors )
 4. [x] Day 4 ( loops, loops, and more loops )
 3. [x] Day 3 ( operators and conditions )
