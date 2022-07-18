@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>struct Sport {
+    var name:String
+}
+
+let tennis = Sport(name:"Tennis")
+let basketball = Sport(name:"Basketboll")
+
+// print(tennis.name, basketball.name)
+
+let string = "Merhaba dünya benim adım Mustafa. Burada swift öğreniyorum."
+
+// print( string.count ) == 59
+// print(string.hasPrefix("Merhaba")) = true
+// print( string.uppercased() ) = MERHABA DÜNYA BENIM ADIM MUSTAFA. BURADA SWIFT ÖĞRENIYORUM.
+// print( string.sorted() ) = [" ", " ", " ", " ", " ", " ", " ", ".", ".", "B", "M", "M", "a", "a", "a", "a", "a", "a", "a", "a", "b", "b", "d", "d", "d", "e", "e", "e", "f", "f", "h", "i", "i", "i", "m", "m", "m", "n", "n", "n", "o", "r", "r", "r", "r", "s", "s", "t", "t", "u", "u", "u", "w", "y", "y", "ö", "ü", "ğ", "ı"]
+
+
+struct Person {
+    var id: String
+    
+    
+    init(id: String) {
+        self.id = id
+    }
+    
+    func identify() -&gt; String {
+        return "My social security number is \(id)"
+    }
+}
+
+let ed = Person(id: "12345")
+// print( ed.identify()) = My social security number is 12345
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1013}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
