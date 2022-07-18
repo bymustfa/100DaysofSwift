@@ -1,6 +1,7 @@
 # 100DaysofSwift
 100 Days of Swift
 
+8. [x] Day 8 ( structs, properties, and methods )
 7. [x] Day 7 ( closures part two )
 6. [x] Day 6 ( closures part one )
 5. [x] Day 5 ( functions, parameters, and errors )
