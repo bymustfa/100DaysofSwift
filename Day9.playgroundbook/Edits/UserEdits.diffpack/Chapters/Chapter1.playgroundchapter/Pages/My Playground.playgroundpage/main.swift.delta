@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>struct User {
+    var username:String
+    
+    init(){
+        username = "Ananymos"
+        print("Create new user")
+    }
+}
+
+
+var user = User() // = Create new user
+// print( user.username ) = Ananymos
+user.username = "bymustfa"
+// print( user.username ) = bymustfa
+
+
+struct Student {
+    static var classSize = 0
+    var name: String
+    
+    init(name: String) {
+        self.name = name
+        Student.classSize += 1
+    }
+}
+
+var stu1 = Student( name:"Mustafa" )
+var stu2 = Student( name:"Efsane" )
+
+// print( Student.classSize ) = 2
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 541}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
