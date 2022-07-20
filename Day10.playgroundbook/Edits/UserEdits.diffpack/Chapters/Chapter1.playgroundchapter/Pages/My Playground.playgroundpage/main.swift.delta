@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>
+class Dog{
+    var name :String
+    var breed :String
+    
+    init(name:String, breed:String){
+        self.name = name
+        self.breed = breed
+    }
+    
+    func makeNoise(){
+        print("Hav amk!")
+    }
+}
+
+// let pug = Dog(name: "Kuçu", breed: "Pug")
+
+
+// intance
+class Pug:Dog{
+    init(name:String){
+        super.init(name: name, breed: "Pug" )
+    }
+    
+    override func makeNoise() {
+        print("Hev hev mk!")
+    }
+    
+}
+
+
+let puppy = Pug(name: "Pug Puppy")
+puppy.makeNoise()
+
+
+print("================")
+
+
+class Singer{
+    var name = "Sagopa Kajmer"
+}
+
+
+
+var singer = Singer()
+// print(singer.name) = Sagopa Kajmer
+
+var singerCopy = singer
+singerCopy.name = "Kolera"
+// print(singerCopy.name) = Kolera
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 726}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
