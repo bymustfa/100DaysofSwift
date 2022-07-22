@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>var age: Int? = nil
+age = 25
+
+
+var name: String? = nil
+
+if let unwrapped = name {
+    print("\(unwrapped.count) letters")
+} else {
+    print("Missing name.")
+}
+
+print("============")
+
+func greet(_ name: String?) {
+    guard let unwrapped = name else {
+        print("You didn't provide a name!")
+        return
+    }
+    
+    print("Hello, \(unwrapped)!")
+}
+
+greet(  "Mustafa" )
+
+
+print("============")
+
+    // Convert tyupe
+let number:String = "25"
+let num = Int(number)
+
+print(num)
+
+print("===========")
+
+
+func username(for id: Int) -&gt; String? {
+    if id == 1 {
+        return "Taylor Swift"
+    } else {
+        return nil
+    }
+}
+
+
+print( username( for:2 ) )
+
+print("============")
+
+let names = ["John", "Paul", "George", "Ringo"]
+let beatle = names.first?.uppercased()
+print(beatle)
+
+
+print("=========")
+
+enum PasswordError: Error {
+    case obvious
+}
+
+func checkPassword(_ password: String) throws -&gt; Bool {
+    if password == "password" {
+        throw PasswordError.obvious
+    }
+    
+    return true
+}
+
+do {
+    try checkPassword("password")
+    print("That password is good!")
+} catch {
+    print("You can't use that password.")
+}
+
+if let result = try? checkPassword("password") {
+    print("Result was \(result)")
+} else {
+    print("D'oh.")
+}
+
+
+// or
+
+// try! checkPassword("sekrit")
+// print("OK!")
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1313}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
