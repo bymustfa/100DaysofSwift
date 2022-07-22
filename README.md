@@ -1,6 +1,8 @@
 # 100DaysofSwift
 100 Days of Swift
 
+12. [x] Day 12 ( optionals, unwrapping, and typecasting )
+11. [x] Day 11 ( protocols, extensions, and protocol extensions )
 10. [x] Day 10 ( classes and inheritance )
 9. [x] Day 9 ( access control, static properties, and laziness)
 8. [x] Day 8 ( structs, properties, and methods )
