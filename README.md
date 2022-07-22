@@ -1,6 +1,7 @@
 # 100DaysofSwift
 100 Days of Swift
 
+10. [x] Day 10 ( classes and inheritance )
 9. [x] Day 9 ( access control, static properties, and laziness)
 8. [x] Day 8 ( structs, properties, and methods )
 7. [x] Day 7 ( closures part two )
