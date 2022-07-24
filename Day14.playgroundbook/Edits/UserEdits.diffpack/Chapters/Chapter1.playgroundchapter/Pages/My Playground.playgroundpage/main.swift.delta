@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>import SwiftUI
+
+func favoriteAlbume( albumName : String ){
+    print( "My favorite albume \(albumName)" )
+}
+
+favoriteAlbume(albumName: "Deneme")
+
+
+func countLetter(muyString str:String){
+    print( "The sring \(str) has \(str.count) letters " )
+}
+
+countLetter(muyString: "Mustafa Öztürk")
+
+
+func countLetter2(_ str:String){
+    print( "The sring \(str) has \(str.count) letters " )
+}
+
+countLetter2( "Mustafa Öztürk")
+
+print("================================")
+
+    // Return
+
+func adult( age:Int ) -&gt;Bool{
+    return age &gt; 18
+    // or no use return 
+    // age &gt; 18
+}
+
+print(adult(age: 25)) // true
+
+print(adult(age: 13)) // false
+
+
+print("=================")
+
+func weather(celcius:Int )-&gt;String? {
+    if( celcius&lt;=0 ){
+        return  "So cold"
+    } else if celcius &gt; 0 &amp;&amp; celcius &lt; 18  {
+        return "Cold"
+    } else if celcius &gt;= 18 &amp;&amp; celcius &lt; 24 {
+        return "Oh yeah"
+    } else if celcius &gt;= 24 &amp;&amp; celcius &lt; 100 {
+        return "Hot"
+    } else {
+        return nil
+    } 
+}
+
+let istanbul = weather(celcius: 12)
+let ankara = weather(celcius: 32)
+let kastamonu = weather(celcius: 145)
+print( "istanbul", istanbul )
+print( "ankara", ankara )
+print( "kastamonu", kastamonu )
+
+print("=================")
+/* // enum
+
+enum ResponseType {
+    case status, message, data 
+}
+
+func sendMessage( mess:String )-&gt;ResponseType {
+    print("Message", mess)
+    var response = ResponseType
+    response.data = nil
+    response.message = "Message Send Successfull"
+    response.status = true
+    return  response
+} */
+
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1524}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
